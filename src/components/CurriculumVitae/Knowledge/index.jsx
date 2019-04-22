@@ -1,14 +1,15 @@
 import React from 'react';
 import Computers from './Computers';
 import Language from './Language';
+import "../styles.css"
 
 
 const Knowledge = () => (
 
-<div> 
-    <Computers></Computers>
-    <Language></Language>
-</div>
+  <div>
+    <Computers />
+    <Language />
+  </div>
 
 );
 
